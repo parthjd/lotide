@@ -32,7 +32,6 @@ const firstNames = [
   "Fang",
   "Joe"
 ];
-const results = {};
 
 const result1 = countOnly(firstNames, {
   Jason: true,
