@@ -13,14 +13,4 @@ const letterPositions = function(text) {
   console.log(counts);
 };
 
-// for (let item of text) {
-//   if (item !== " ") {
-//     if (counts[item]) {
-//       counts[item] += 1;
-//     } else {
-//       counts[item] = 1;
-//     }
-//   }
-// }
-
 letterPositions("lighthouse in the house");
