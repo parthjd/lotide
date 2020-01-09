@@ -1,3 +1,12 @@
+const words = ["ground", "control", "to", "major", "tom"];
+
+const map = function(array, callback) {
+  const results = [];
+  for (let item of array) {
+    results.push(callback(item));
+  }
+  return results;
+};
 const eqArrays = function(arr1, arr2) {
   let value = "test";
   if (arr1.length === arr2.length) {
@@ -17,4 +26,4 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true); // => should PASS
+map(assertEqual(eqArrays("ground", "ground", true)));
