@@ -10,7 +10,7 @@ const letterPositions = function(text) {
       }
     }
   }
-  console.log(counts);
+  return counts;
 };
 
 letterPositions("lighthouse in the house");

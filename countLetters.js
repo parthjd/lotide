@@ -17,6 +17,6 @@ const countLetters = function(text) {
       }
     }
   }
-  console.log(JSON.stringify(counts, null, 2));
+  return JSON.stringify(counts, null, 2);
 };
 countLetters("lighthouse in the house");
